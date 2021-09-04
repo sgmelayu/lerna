@@ -28,10 +28,14 @@
     "directory": "core/prompt"
   },
   "scripts": {
-    "test": "echo \"Run tests from root\" && exit 1"
+    "test": "echo \"Run tests from root\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "inquirer": "^6.2.0",
-    "npmlog": "^4.1.2"
-  }
+    "npmlog": "^4.1.2",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
