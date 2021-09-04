@@ -29,7 +29,9 @@
     "directory": "core/conventional-commits"
   },
   "scripts": {
-    "test": "echo \"Run tests from root\" && exit 1"
+    "test": "echo \"Run tests from root\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "@lerna/validation-error": "file:../validation-error",
@@ -42,6 +44,8 @@
     "npm-package-arg": "^6.1.0",
     "npmlog": "^4.1.2",
     "pify": "^4.0.1",
-    "semver": "^6.2.0"
-  }
+    "semver": "^6.2.0",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
