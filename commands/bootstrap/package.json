@@ -49,7 +49,7 @@
     "get-port": "^4.2.0",
     "multimatch": "^3.0.0",
     "npm-package-arg": "^6.1.0",
-    "npmlog": "^4.1.2",
+    "npmlog": "^5.0.0",
     "p-finally": "^1.0.0",
     "p-map": "^2.1.0",
     "p-map-series": "^1.0.0",
